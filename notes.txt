@@ -1,0 +1,25 @@
+Brick: 5
+Title: Logging & SIEM Layer (Wazuh)
+
+Environment:
+- Kali Live USB (Persistent)
+- Single-node initial deployment
+
+Reason for Wazuh over Splunk:
+- Open source
+- Integrated vulnerability detection
+- Endpoint security capability
+- No enterprise licensing gate
+- Better alignment with blue team path
+
+Open Questions:
+- Resource usage on Live USB
+- Persistence impact
+- Multi-agent scaling limits
+
+Next Actions:
+- Install Wazuh all-in-one
+- Verify dashboard access
+- Deploy local agent
+- Generate test alerts
+- Document detection behavior
